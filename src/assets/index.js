@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Aichatbot from "./Aichatbot.jpg";
+import TrakmamaAppjpg from "./TrakmamaAppjpg.jpg";
+import ReactQuiz from  "./Quizreact.jpg";
 
 export {
   logo,
@@ -59,4 +62,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  Aichatbot,
+  ReactQuiz,
+  TrakmamaAppjpg
 };

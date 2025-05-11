@@ -13,6 +13,9 @@ import {
   nodejs,
   mongodb,
   git,
+  ReactQuiz,
+  TrakmamaAppjpg,
+  Aichatbot,
   figma,
   docker,
   meta,
@@ -137,7 +140,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Adaobi proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -145,7 +148,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Adaobi does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -153,7 +156,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Adaobi  optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -163,16 +166,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quiz App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to select answers and receive instant feedback, with a final score displayed upon completion.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Redux",
         color: "green-text-gradient",
       },
       {
@@ -180,41 +183,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:ReactQuiz,
+    source_code_link: "https://react-quiz-app-sigma-inky.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Trakmama",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "TrakMama is a smart health companion app designed to support pregnant women throughout their pregnancy journey. Built with AI integration, the app offers personalized guidance by answering pregnancy-related questions and providing reliable health tips",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "node js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: TrakmamaAppjpg,
+    source_code_link: "https://trakmama-project.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Ai chat bot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Ai chatbot developed with React and integrates the Gemini API to provide intelligent responses to user questions. The chatbot features a clean, interactive UI where users can type queries and receive real-time answers powered by Gemini's natural language capabilities.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "gemini",
         color: "green-text-gradient",
       },
       {
@@ -222,8 +225,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Aichatbot,
+    source_code_link: "https://react-ai-chatbot-azure.vercel.app/",
   },
 ];
 
